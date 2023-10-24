@@ -5,7 +5,7 @@ This is a simple API that provides the Quran in text format. The API is written 
 ## Endpoints
 The API provides the following endpoints:
 - /surahs
-- /quran/{name}
+- /surahs/{name}
 
 ### /surahs
 This endpoint returns the entire Quran in JSON format. The response is a list of chapters. Each chapter is an array in Object with the following keys:
