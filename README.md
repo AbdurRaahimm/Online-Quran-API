@@ -1,6 +1,6 @@
 # Online Quran API 
 ## Introduction
-This is a simple API that provides the Quran in json format. The API is written in Node Js using the expressJs framework. The API is hosted on vercel and can be accessed at https://quran-api.herokuapp.com/. The API is free to use and does not require any authentication. The API is currently in beta and is subject to change.
+This is a simple API that provides the Quran in json format. The API is written in Node Js using the expressJs framework. The API is hosted on vercel and can be accessed at https://online-quran-api.vercel.app/. The API is free to use and does not require any authentication. The API is currently in beta and is subject to change.
 
 
 ## Endpoints
