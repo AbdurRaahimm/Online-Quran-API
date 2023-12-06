@@ -2,10 +2,11 @@
 ## Introduction
 This is a simple API that provides the Quran in json format. The API is written in Node Js using the expressJs framework. The API is hosted on vercel and can be accessed at https://quran-api.herokuapp.com/. The API is free to use and does not require any authentication. The API is currently in beta and is subject to change.
 
+
 ## Endpoints
 The API provides the following endpoints:
 - /surahs
-- /quran/{name}
+- /surahs/{name}
 
 ### /surahs
 This endpoint returns the entire Quran in JSON format. The response is a list of chapters. Each chapter is an array in Object with the following keys:
@@ -35,7 +36,7 @@ Each surah of verse is an array in Object with the following keys:
 
 
 ## Base URL
-The base URL for the API is https://quran-api.herokuapp.com/
+The base URL for the API is https://online-quran-api.vercel.app/
 
 ## Examples
 - GET /surahs
